@@ -25,6 +25,7 @@ class KaryawanController extends Controller
     public function create()
     {
         //
+        return 
     }
 
     /**
