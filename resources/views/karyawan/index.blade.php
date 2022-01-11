@@ -1,15 +1,15 @@
 @extends('layouts/app')
 
-@section('title', 'Data Gaji')
+@section('title', 'Data Karyawan')
 
 @section('container')
     <center>
-        <h1 class="mt-5 mb-5"> Data Gaji </h1>
+        <h1 class="mt-5 mb-5"> Data Karyawan </h1>
     </center>
 
     <div class="card text-center">
         <div class="card-header">
-            <a href="tambahkaryawan" class="btn btn-success">Tambah Data</a>
+            <a href="karyawan/create" class="btn btn-success">Tambah Data</a>
         </div>
         <div class="card-body">
             <table class="table table-bordered table-striped mt-2">

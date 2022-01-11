@@ -27,6 +27,11 @@ Route::get('about', function () {
 
 
 route::get('karyawan','KaryawanController@index');
+route::get('karyawan/create','KaryawanController@create');
+
+
+
+
 
 
 

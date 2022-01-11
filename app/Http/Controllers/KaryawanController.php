@@ -25,7 +25,8 @@ class KaryawanController extends Controller
     public function create()
     {
         //
-        return 
+        return view('karyawan.create');
+        
     }
 
     /**
