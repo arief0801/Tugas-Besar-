@@ -17,21 +17,25 @@
                     <input type="text" name="" class="form form-control">
                     
                 </div>
+                <br>
                 <div class="form-group">
-                    <label for=""></label>
+                    <label for="">Gaji Pokok</label>
                     <input type="varchar" name="" class="form form-control">
-                    
+                </div>
+                <br>
                 <div class="form-group">
                     <label for="">Tunjangan Transportasi</label>
-                    <input type="varchar" name="" class="form form-control">
-                    
+                    <input type="varchar" name="" class="form form-control">  
                 </div>
-                <div class="form-group">
+                <br>
+                <div class="form-group" style="">
                     <label for="">Tunjangan Makan</label>
                     <input type="text" name="" class="form form-control">
                 </div>
+                <br>
 
                 <button type="submit" class="btn btn-success mt-5" style="margin-bottom: 70px">Simpan</button>
+                <a href="/karyawan" class="btn btn-danger mt-5" style="margin-bottom: 70px">Batal</a>
             </form>
         </div>
     </div>
